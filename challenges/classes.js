@@ -19,7 +19,7 @@ class CubeMaker extends CuboidMaker {
     super(attr)
   }
   surfaceArea() {
-    return this.length ** this.length * 6
+    return this.length ** 2 * 6
   }
 }
 
