@@ -29,14 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+Well, the forEach() method doesn't actually return anything (undefined). It simply calls a provided function on each element in your array. This callback is allowed to mutate the calling array. ... The difference is that map() utilizes return values and actually returns a new Array of the same size.
 
 2. What is the difference between a function and a method?
+A function returns a value, but a procedure does not. A method is similar to a function, but is internal to part of a class. The term method is used almost exclusively in object-oriented programming. A function is something that takes a bunch of inputs and returns one or more values.
 
 3. What is closure?
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
+If the new keyword is used when calling the function, this inside the function is a brand new object,  If apply, call, or bind are used to call a function, this inside the function is the object that is passed in as the argument, If a function is called as a method — that is, if dot notation is used to invoke the function — this is the object that the function is a property of. In other words, when a dot is to the left of a function invocation, this is the object to the left of the dot. (ƒ symbolizes function in the code blocks, If a function is invoked as a free function invocation, meaning it was invoked without any of the conditions present above, this is the global object. In a browser, it’s window.
 
 5. Why do we need super() in an extended class?
+super allows us to inherit from another class.
+
 
 ## Project Set up
 
